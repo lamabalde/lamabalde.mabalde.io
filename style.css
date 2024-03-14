@@ -1,0 +1,24 @@
+
+span {
+    margin-top: 2vh;
+    font-size: large;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+#projet_names {
+    margin-top: 8%;
+}
+
+#ratioGraphs {
+    position: absolute;
+    left: 60%;
+    bottom: -57%;
+    top: 30%;
+    width: 300px; /* Ajouté une largeur pour éviter le débordement */
+    height: 300px; /* Ajouté une hauteur pour éviter le débordement */
+}
+
+#exit:hover {
+    cursor: pointer;
+}

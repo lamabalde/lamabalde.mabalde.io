@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+    <style>
+        .login-box {
+            max-width: 300px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 50px;
+        }
+        .login-input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        .login-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body >
+    <div class="login-box" id="mainLogin">
+        <h1 class="login-title">Login to Zone O1 Dakar</h1>
+        <form id="credForm">
+            <input class="login-input" type="text" placeholder="Username" required><br>
+            <input class="login-input" type="password" placeholder="Password" required><br>
+            <button class="login-button" type="submit">Log In</button>
+        </form>
+        <div id="badCred" style="display: none; color: red;">Identifiants incorrects, veuillez réessayer</div>
+    </div>
+    <script type="module" src="login.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</body>
+</html>
